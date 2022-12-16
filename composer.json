@@ -1,0 +1,28 @@
+{
+    "name": "andkab/php-turnstile",
+    "description": "API Implementation of CloudFlare Turnstile for PHP",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/andkab/php-turnstile",
+    "keywords": [
+        "cloudflare",
+        "turnstile",
+        "captcha"
+    ],
+    "autoload": {
+        "psr-4": {
+            "FluxSoft\\Turnstile\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "andkab",
+            "email": "andkab2012@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
