@@ -3,7 +3,7 @@ API Implementation of [Cloudflare turnstile](https://www.cloudflare.com/products
 ## Installation
 
 ```bash
-composer require fluxsoft/php-turnstile
+composer require andkab/php-turnstile
 ```
 
 ## Usage
@@ -11,7 +11,7 @@ composer require fluxsoft/php-turnstile
 ```php
 require_once '../vendor/autoload.php';
 
-use FluxSoft\Turnstile\Turnstile;
+use andkab\Turnstile\Turnstile;
 
 $turnstile = new Turnstile('secret key');
 $verifyResponse = $turnstile->verify($_POST['cf-turnstile-response'], $_SERVER['REMOTE_ADDR']);
